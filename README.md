@@ -1,2 +1,2 @@
 # SleepWake
-Alarm application which can be customized by users
+An alarm application which can be customized by users
