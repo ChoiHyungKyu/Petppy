@@ -7,6 +7,10 @@ An alarm application which can be customized by users
 
 Key Features
 ----------------
+- Setting Alarms
+- Setting Sounds (Customized)
+- Analysis Sleep Patterns with REM
+- Playing ASMR (Before Sleeping)
 
 Usage
 ----------------
