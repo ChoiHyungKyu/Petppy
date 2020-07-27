@@ -17,10 +17,10 @@ public class Splash extends AppCompatActivity {
         ImageView splash = (ImageView)findViewById(R.id.splashImage);
         Glide.with(this).load(R.drawable.splash_image).into(splash);
         Handler hd = new Handler();
-        hd.postDelayed(new splashHander(), 2000);
+        hd.postDelayed(new splashHandler(), 2000);
     }
 
-    private class splashHander implements Runnable{
+    private class splashHandler implements Runnable{
         public void run(){
             startActivity(new Intent(getApplication(), MainActivity.class));
             Splash.this.finish();

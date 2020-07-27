@@ -7,28 +7,38 @@
 
     <TextView
         android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/timePicker"
-        android:layout_marginTop="-65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:textStyle="bold"
         android:text="Set your alarm"
         android:textSize="30sp" />
 
     <TimePicker
         android:id="@+id/timePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="311dp"
+        android:layout_height="183dp"
+        android:layout_alignBottom="@+id/text_notifications"
         android:layout_centerInParent="true"
-        android:timePickerMode="spinner"/>
+        android:layout_marginBottom="-200dp"
+        android:timePickerMode="spinner" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/timePicker"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="-50dp"
-        android:layout_centerHorizontal="true"
-        android:text="Send" />
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-30dp"
+        android:text="Send"/>
+
+    <TextView
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-50dp"/>
+
 </RelativeLayout>
