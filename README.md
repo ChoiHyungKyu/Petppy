@@ -1,4 +1,4 @@
-# PetDiary
+# Petppy
 This is an application that making a diary includes your pet's health, status, etc.
 
 Installation
