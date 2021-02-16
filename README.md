@@ -1,6 +1,8 @@
 # Petppy
 This is an application that making a diary includes your pet's health, status, etc.
 
+![Icon](https://user-images.githubusercontent.com/44195740/108050672-47aaaf00-708d-11eb-9feb-a606120561f7.png)
+
 Installation
 -------------
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
