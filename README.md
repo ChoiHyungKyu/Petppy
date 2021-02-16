@@ -1,6 +1,5 @@
-# SleepWake
-An alarm application which can be customized by users<br>
-(It will be released within 30 August)
+# PetDiary
+This is an application that making a diary includes your pet's health, status, etc.
 
 Installation
 -------------
@@ -10,10 +9,9 @@ Installation
 
 Key Features
 ----------------
-- Setting Alarms
-- Setting Sounds (Customized)
-- Analysis Sleep Patterns with REM
-- Playing ASMR (Before Sleeping)
+- Making Diary
+- Check Pet's health
+- ETC. (will be added for various functions)
 
 Usage
 ----------------
