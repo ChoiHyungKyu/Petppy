@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    // 권한에 대해 응답을 받았을 때 작동하는 함수
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
         if(requestCode == 1){
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // 권한을 요청하고 확인하는 함수
     public void checkSelfPermission(){
         String temp = "";
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED){
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // 권한을 확인하고 Intent 형태로 Album 호출
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
         if(requestCode == 101 && resultCode == RESULT_OK){
@@ -96,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap bm = BitmapFactory.decodeStream(is);
                 is.close();
                 iv.setImageBitmap(bm);
+                Toast.makeText(this, "성공", Toast.LENGTH_SHORT).show();
             }catch (Exception e){
                 e.printStackTrace();
             }
